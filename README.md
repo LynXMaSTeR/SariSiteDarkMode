@@ -23,7 +23,7 @@
 
 ## 📦 Kurulum
 
-1. [**⬇️ Projeyi ZIP olarak indirin**](https://github.com/LynXMaSTeR/SariSiteDarkMode/archive/refs/heads/main.zip) ve çıkartın.
+1. [**⬇️ Projeyi ZIP olarak indirin**](https://github.com/LynXMaSTeR/SariSiteDarkMode/archive/refs/tags/v1.0.zip) ve çıkartın.
 
 2. Chrome'da `chrome://extensions` adresine gidin.
 
