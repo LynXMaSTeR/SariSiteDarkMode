@@ -38,11 +38,9 @@
 3. Açılan popup'taki toggle ile karanlık modu **açın** veya **kapatın**.
 4. Tercih otomatik olarak kaydedilir; sayfa yenilemesi gerekmez.
 
-## 📸 Ekran Görüntüleri
+## 📸 Ekran Görüntüsü
 
-> Ekran görüntüleri eklenecek.
->
-> `![Ekran Görüntüsü](screenshots/screenshot.png)`
+![Sarı Site Dark Mode](screenshot.png)
 
 ## 🛠️ Kullanılan Teknolojiler
 
