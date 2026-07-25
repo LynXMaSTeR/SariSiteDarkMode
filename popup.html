@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sarı Site Dark Mode</title>
+  <style>
+    :root {
+      --bg-color: #121214;
+      --card-bg: #1a1a1e;
+      --text-primary: #ffffff;
+      --text-secondary: #a0a0ab;
+      --accent-color: #ffc900;
+      /* Sarı Site sarısı */
+      --toggle-bg-active: #4cd964;
+      --toggle-bg-inactive: #3a3a3c;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-primary);
+      margin: 0;
+      padding: 16px;
+      width: 250px;
+      box-sizing: border-box;
+      user-select: none;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .logo {
+      width: 24px;
+      height: 24px;
+      border-radius: 6px;
+      object-fit: contain;
+    }
+
+    .title {
+      font-size: 15px;
+      font-weight: 600;
+      margin: 0;
+      letter-spacing: -0.3px;
+    }
+
+    .switch-card {
+      background-color: var(--card-bg);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      padding: 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    }
+
+    .switch-label {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .status-text {
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .sub-text {
+      font-size: 10px;
+      color: var(--text-secondary);
+    }
+
+    /* iOS Switch */
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 44px;
+      height: 24px;
+    }
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: var(--toggle-bg-inactive);
+      transition: .3s;
+      border-radius: 24px;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 20px;
+      width: 20px;
+      left: 2px;
+      bottom: 2px;
+      background-color: white;
+      transition: .3s;
+      border-radius: 50%;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    }
+
+    input:checked+.slider {
+      background-color: var(--toggle-bg-active);
+    }
+
+    input:checked+.slider:before {
+      transform: translateX(20px);
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 10px;
+      color: var(--text-secondary);
+      margin-top: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="logo.png" alt="Logo" class="logo">
+      <h1 class="title">Sarı Site Dark Mode</h1>
+    </div>
+
+    <div class="switch-card">
+      <div class="switch-label">
+        <span class="status-text" id="statusLabel">Karanlık Mod</span>
+        <span class="sub-text" id="statusDesc">Aktif</span>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="darkModeToggle" checked>
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="footer">
+      v1.0 • LynXMaSTeR
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>

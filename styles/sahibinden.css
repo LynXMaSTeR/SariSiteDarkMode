@@ -1,0 +1,1300 @@
+/* Developed by LynXMaSTeR */
+
+/* ── 1. HTML & BODY ─────────────────────────────────────────────────────── */
+html.sahibinden-dark-mode,
+html.sahibinden-dark-mode body {
+  background-color: #0d0e12 !important;
+  color: #e1e1e6 !important;
+}
+
+html.sahibinden-dark-mode *:not(img):not(video):not(iframe):not(svg):not(canvas):not(.new-classified-btn):not(rect):not(path):not(circle):not(ellipse):not(polygon):not(polyline):not(line):not(g):not(defs):not(use):not(symbol):not(text):not(tspan):not(i) {
+  background-color: transparent;
+}
+
+/* ── 2. METİN & LİNKLER ─────────────────────────────────────────────────── */
+html.sahibinden-dark-mode h1,
+html.sahibinden-dark-mode h2,
+html.sahibinden-dark-mode h3,
+html.sahibinden-dark-mode h4,
+html.sahibinden-dark-mode h5,
+html.sahibinden-dark-mode h6 {
+  color: #e8e8ed !important;
+}
+
+html.sahibinden-dark-mode p,
+html.sahibinden-dark-mode span:not(.new-classified-btn span),
+html.sahibinden-dark-mode li,
+html.sahibinden-dark-mode td,
+html.sahibinden-dark-mode th,
+html.sahibinden-dark-mode label,
+html.sahibinden-dark-mode i {
+  color: #d1d1d6 !important;
+}
+
+html.sahibinden-dark-mode a:not(.new-classified-btn) {
+  color: #4da6ff !important;
+  text-decoration: none;
+}
+
+html.sahibinden-dark-mode a:hover:not(.new-classified-btn) {
+  color: #80bfff !important;
+  text-decoration: underline;
+}
+
+/* ── 3. HEADER ──────────────────────────────────────────────────────────── */
+html.sahibinden-dark-mode header,
+html.sahibinden-dark-mode .header,
+html.sahibinden-dark-mode #header,
+html.sahibinden-dark-mode #mainHeader,
+html.sahibinden-dark-mode .header-container,
+html.sahibinden-dark-mode .top-bar,
+html.sahibinden-dark-mode .site-header {
+  background-color: #1a1c23 !important;
+  border-bottom: 1px solid rgba(255,255,255,0.09) !important;
+}
+
+html.sahibinden-dark-mode header *,
+html.sahibinden-dark-mode .header *,
+html.sahibinden-dark-mode #header *,
+html.sahibinden-dark-mode #mainHeader * {
+  background-color: transparent !important;
+}
+
+html.sahibinden-dark-mode .search-wrapper {
+  background-color: #252833 !important;
+  border-color: #3a3f52 !important;
+}
+
+html.sahibinden-dark-mode input#search_keyword {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  caret-color: #4da6ff !important;
+}
+
+html.sahibinden-dark-mode input#search_keyword::placeholder {
+  color: #6b7280 !important;
+  opacity: 1 !important;
+}
+
+html.sahibinden-dark-mode a[href*="detayli"],
+html.sahibinden-dark-mode .detailed-search-link {
+  color: #4da6ff !important;
+}
+
+html.sahibinden-dark-mode .new-classified-btn,
+html.sahibinden-dark-mode a.new-classified-btn,
+html.sahibinden-dark-mode a[href*="/ilan-ver"] {
+  background-color: #1e4a8a !important;
+  color: #ffffff !important;
+  border: 1px solid #2a5fa0 !important;
+}
+
+html.sahibinden-dark-mode .sub-header,
+html.sahibinden-dark-mode .breadcrumb,
+html.sahibinden-dark-mode .breadcrumb-area,
+html.sahibinden-dark-mode .breadcrumb-container,
+html.sahibinden-dark-mode .category-navigation,
+html.sahibinden-dark-mode ul.category-navigation {
+  background-color: #161820 !important;
+  border: 1px solid rgba(255,255,255,0.07) !important;
+  border-radius: 6px;
+}
+
+html.sahibinden-dark-mode .breadcrumb a,
+html.sahibinden-dark-mode .breadcrumb li,
+html.sahibinden-dark-mode .breadcrumb span,
+html.sahibinden-dark-mode .category-navigation a,
+html.sahibinden-dark-mode .category-navigation li,
+html.sahibinden-dark-mode .category-navigation span {
+  color: #8b8fa8 !important;
+  background-color: transparent !important;
+}
+
+html.sahibinden-dark-mode .sticky-header,
+html.sahibinden-dark-mode .fixed-header,
+html.sahibinden-dark-mode .classified-sticky,
+html.sahibinden-dark-mode .classified-detail-sticky {
+  background-color: #1a1c23 !important;
+  border-bottom: 1px solid rgba(255,255,255,0.09) !important;
+  color: #e1e1e6 !important;
+}
+
+html.sahibinden-dark-mode .classifiedOtherBoxes,
+html.sahibinden-dark-mode .classifiedOtherBoxes * {
+  border-color: rgba(255,255,255,0.07) !important;
+  background-color: #13151c !important;
+  color: #d1d1d6 !important;
+  outline: none !important;
+}
+
+html.sahibinden-dark-mode .safety-warnnings-content,
+html.sahibinden-dark-mode .safety-warnnings-box {
+  outline: none !important;
+  border-color: rgba(255,255,255,0.09) !important;
+}
+
+/* ── 3.5 ANA TAŞIYICILAR VE FOOTER (Destek vb. sayfalar için) ────────────── */
+html.sahibinden-dark-mode #container,
+html.sahibinden-dark-mode #wrapper,
+html.sahibinden-dark-mode #main,
+html.sahibinden-dark-mode #content,
+html.sahibinden-dark-mode #footer,
+html.sahibinden-dark-mode .footer,
+html.sahibinden-dark-mode .page-container,
+html.sahibinden-dark-mode .main-content,
+html.sahibinden-dark-mode .layout-container,
+html.sahibinden-dark-mode #destek-container,
+html.sahibinden-dark-mode .support-wrapper,
+html.sahibinden-dark-mode #ui-container,
+html.sahibinden-dark-mode .desktop-wrapper,
+html.sahibinden-dark-mode .wrapper {
+  background-color: #0d0e12 !important;
+}
+
+html.sahibinden-dark-mode #footer *,
+html.sahibinden-dark-mode .footer * {
+  background-color: transparent !important;
+}
+
+html.sahibinden-dark-mode #footer h3,
+html.sahibinden-dark-mode .footer h3,
+html.sahibinden-dark-mode #footer p,
+html.sahibinden-dark-mode .footer p {
+  color: #a0a8c0 !important;
+}
+
+html.sahibinden-dark-mode #footer a,
+html.sahibinden-dark-mode .footer a {
+  color: #4da6ff !important;
+}
+
+
+/* ── 4. SOL PANEL ───────────────────────────────────────────────────────── */
+html.sahibinden-dark-mode .subCategory,
+html.sahibinden-dark-mode #left-column,
+html.sahibinden-dark-mode .left-column,
+html.sahibinden-dark-mode .searchFilter,
+html.sahibinden-dark-mode .filter-container,
+html.sahibinden-dark-mode .left-menu,
+html.sahibinden-dark-mode .categories {
+  background-color: #13151c !important;
+  border: 1px solid rgba(255,255,255,0.07) !important;
+}
+
+html.sahibinden-dark-mode .subCategory *,
+html.sahibinden-dark-mode .searchFilter *,
+html.sahibinden-dark-mode #left-column *,
+html.sahibinden-dark-mode .left-column * {
+  background-color: transparent !important;
+  border-color: rgba(255,255,255,0.07) !important;
+}
+
+html.sahibinden-dark-mode .subCategory a,
+html.sahibinden-dark-mode .left-column a,
+html.sahibinden-dark-mode .searchFilter a {
+  color: #4da6ff !important;
+}
+
+html.sahibinden-dark-mode .subCategory a:hover,
+html.sahibinden-dark-mode .left-column a:hover {
+  color: #80bfff !important;
+}
+
+html.sahibinden-dark-mode .subCategory li.selected > a,
+html.sahibinden-dark-mode .left-menu li.active > a {
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+html.sahibinden-dark-mode .filterBox,
+html.sahibinden-dark-mode .filter-box,
+html.sahibinden-dark-mode .searchFilter > div[class] {
+  background-color: #161820 !important;
+  border: 1px solid rgba(255,255,255,0.07) !important;
+}
+
+html.sahibinden-dark-mode .filterBox *,
+html.sahibinden-dark-mode .filter-box * {
+  background-color: transparent !important;
+  border-color: rgba(255,255,255,0.07) !important;
+}
+
+html.sahibinden-dark-mode .filterBox h3,
+html.sahibinden-dark-mode .filterBox .filter-title,
+html.sahibinden-dark-mode .filter-box h3 {
+  color: #a0a8c0 !important;
+  border-bottom: 1px solid rgba(255,255,255,0.07) !important;
+}
+
+/* ── 5. FORM ELEMANLARI ─────────────────────────────────────────────────── */
+html.sahibinden-dark-mode input[type="text"]:not(#search_keyword),
+html.sahibinden-dark-mode input[type="number"],
+html.sahibinden-dark-mode input[type="email"],
+html.sahibinden-dark-mode input[type="password"],
+html.sahibinden-dark-mode input[type="search"]:not(#search_keyword),
+html.sahibinden-dark-mode select,
+html.sahibinden-dark-mode textarea {
+  background-color: #1a1e2a !important;
+  color: #e1e1e6 !important;
+  border: 1px solid rgba(255,255,255,0.10) !important;
+  border-radius: 4px;
+}
+
+html.sahibinden-dark-mode input:focus:not(#search_keyword),
+html.sahibinden-dark-mode select:focus,
+html.sahibinden-dark-mode textarea:focus {
+  border-color: #4da6ff !important;
+  outline: none;
+}
+
+html.sahibinden-dark-mode select option {
+  background-color: #1a1e2a !important;
+  color: #e1e1e6 !important;
+}
+
+/* ── 6. SONUÇ ÖZET SATIRI ───────────────────────────────────────────────── */
+html.sahibinden-dark-mode .searchResultSummaryRow,
+html.sahibinden-dark-mode .search-result-summary,
+html.sahibinden-dark-mode .result-count-area,
+html.sahibinden-dark-mode [class*="searchResultTitle"] {
+  background-color: #161820 !important;
+  border: 1px solid rgba(255,255,255,0.07) !important;
+  color: #d1d1d6 !important;
+  border-radius: 6px;
+}
+
+/* İçindeki yazılar (aramanızda, bulundu vb.) siyaha boyanmışsa diye catch-all */
+html.sahibinden-dark-mode .searchResultSummaryRow *,
+html.sahibinden-dark-mode .search-result-summary *,
+html.sahibinden-dark-mode .result-count-area *,
+html.sahibinden-dark-mode [class*="searchResultTitle"] * {
+  color: #d1d1d6 !important;
+  background-color: transparent !important;
+}
+
+/* Spesifik vurgular (1.182 ilan vs.) */
+html.sahibinden-dark-mode .searchResultSummaryRow strong,
+html.sahibinden-dark-mode .searchResultSummaryRow span {
+  color: #ffffff !important;
+}
+
+/* ── 7. TABS ────────────────────────────────────────────────────────────── */
+html.sahibinden-dark-mode .result-tabs,
+html.sahibinden-dark-mode ul.classified-tabs,
+html.sahibinden-dark-mode .tab-nav {
+  background-color: #161820 !important;
+  border: 1px solid rgba(255,255,255,0.07) !important;
+  border-radius: 6px;
+}
+
+/* uiTabStyleOne tab linkleri: beyaz arka planı iptal et */
+html.sahibinden-dark-mode .uiTabStyleOne a,
+html.sahibinden-dark-mode ul.uiTabStyleOne a {
+  background: #13151c !important;
+  background-color: #13151c !important;
+  border-color: rgba(255,255,255,0.07) !important;
+  text-decoration: none !important;
+}
+
+/* Hover: sadece underline, arka plan koyu kalsın */
+html.sahibinden-dark-mode .uiTabStyleOne a:hover,
+html.sahibinden-dark-mode ul.uiTabStyleOne a:hover {
+  background: #1a1e2a !important;
+  background-color: #1a1e2a !important;
+  text-decoration: underline !important;
+  border-color: rgba(255,255,255,0.12) !important;
+}
+
+/* Aktif tab: yazı beyaz olsun (sarı border üzerinde mavi garip görünüyor) */
+html.sahibinden-dark-mode .uiTabStyleOne li.active a,
+html.sahibinden-dark-mode ul.uiTabStyleOne li.active a,
+html.sahibinden-dark-mode .uiTabStyleOne li.tab-classified-detail.active a {
+  color: #ffffff !important;
+  background: #1e2235 !important;
+  background-color: #1e2235 !important;
+  text-decoration: none !important;
+}
+
+html.sahibinden-dark-mode .result-tabs li,
+html.sahibinden-dark-mode ul.classified-tabs li,
+html.sahibinden-dark-mode .tab-nav li {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+html.sahibinden-dark-mode .result-tabs li a,
+html.sahibinden-dark-mode ul.classified-tabs li a,
+html.sahibinden-dark-mode .tab-nav li a {
+  color: #8b8fa8 !important;
+}
+
+html.sahibinden-dark-mode .result-tabs li.active,
+html.sahibinden-dark-mode ul.classified-tabs li.active,
+html.sahibinden-dark-mode .tab-nav li.active {
+  background-color: #1a1e2a !important;
+  border-radius: 4px;
+}
+
+html.sahibinden-dark-mode .result-tabs li.active a,
+html.sahibinden-dark-mode ul.classified-tabs li.active a,
+html.sahibinden-dark-mode .tab-nav li.active a {
+  color: #ffffff !important;
+}
+
+
+/* ── 8. İLAN LİSTESİ TABLOSU ───────────────────────────────────────────── */
+html.sahibinden-dark-mode #searchResultTable,
+html.sahibinden-dark-mode .classified-list-table,
+html.sahibinden-dark-mode table.classifiedTable {
+  background-color: #13151c !important;
+  border: 1px solid rgba(255,255,255,0.07) !important;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+html.sahibinden-dark-mode #searchResultTable thead,
+html.sahibinden-dark-mode #searchResultTable thead tr,
+html.sahibinden-dark-mode table.classifiedTable thead,
+html.sahibinden-dark-mode table.classifiedTable thead tr,
+html.sahibinden-dark-mode #searchResultsContent thead,
+html.sahibinden-dark-mode #searchResultsContent thead tr {
+  background-color: #1a1e2a !important;
+}
+
+html.sahibinden-dark-mode #searchResultTable thead th,
+html.sahibinden-dark-mode #searchResultTable thead td,
+html.sahibinden-dark-mode table.classifiedTable thead th,
+html.sahibinden-dark-mode table.classifiedTable thead td,
+html.sahibinden-dark-mode table thead th,
+html.sahibinden-dark-mode table thead td {
+  background-color: #1a1e2a !important;
+  color: #c0c5d6 !important;
+  border-bottom: 2px solid rgba(255,255,255,0.08) !important;
+  border-right: 1px solid rgba(255,255,255,0.07) !important;
+  font-weight: 600;
+}
+
+html.sahibinden-dark-mode table thead th a,
+html.sahibinden-dark-mode table thead td a {
+  color: #c0c5d6 !important;
+}
+
+html.sahibinden-dark-mode #searchResultTable tbody tr,
+html.sahibinden-dark-mode table.classifiedTable tbody tr {
+  background-color: #13151c !important;
+  border-bottom: 1px solid rgba(255,255,255,0.05) !important;
+}
+
+html.sahibinden-dark-mode #searchResultTable tbody tr:nth-child(even),
+html.sahibinden-dark-mode table.classifiedTable tbody tr:nth-child(even) {
+  background-color: #161920 !important;
+}
+
+html.sahibinden-dark-mode #searchResultTable tbody tr:hover,
+html.sahibinden-dark-mode table.classifiedTable tbody tr:hover {
+  background-color: #1a1e2a !important;
+}
+
+html.sahibinden-dark-mode #searchResultTable tbody tr:hover td,
+html.sahibinden-dark-mode table.classifiedTable tbody tr:hover td,
+html.sahibinden-dark-mode #searchResultTable tbody tr:hover th,
+html.sahibinden-dark-mode table.classifiedTable tbody tr:hover th {
+  background-color: #1a1e2a !important;
+  color: #e1e1e6 !important;
+}
+
+html.sahibinden-dark-mode #searchResultTable td,
+html.sahibinden-dark-mode table.classifiedTable td {
+  background-color: transparent !important;
+  border-right: 1px solid rgba(255,255,255,0.05) !important;
+  padding: 8px;
+  color: #d1d1d6 !important;
+}
+
+html.sahibinden-dark-mode tr.dopingsRow,
+html.sahibinden-dark-mode tr[class*="doping"],
+html.sahibinden-dark-mode tr[class*="promoted"] {
+  background-color: #13202a !important;
+}
+
+html.sahibinden-dark-mode tr.dopingsRow td,
+html.sahibinden-dark-mode tr[class*="doping"] td,
+html.sahibinden-dark-mode tr[class*="promoted"] td {
+  background-color: #13202a !important;
+  color: #d1d1d6 !important;
+}
+
+html.sahibinden-dark-mode .classified-price,
+html.sahibinden-dark-mode .searchResultsPriceValue,
+html.sahibinden-dark-mode td.classifiedTableCol-price {
+  color: #ff6b6b !important;
+  font-weight: bold !important;
+}
+
+html.sahibinden-dark-mode .classifiedTitle,
+html.sahibinden-dark-mode td.classifiedTitle a,
+html.sahibinden-dark-mode a.classifiedTitle {
+  color: #4da6ff !important;
+}
+
+html.sahibinden-dark-mode [class*="doping-label"],
+html.sahibinden-dark-mode [class*="premiumGaleri"],
+html.sahibinden-dark-mode [class*="premium-label"] {
+  background-color: #1e3a5f !important;
+  color: #80bfff !important;
+  border: 1px solid #2a5fa0 !important;
+}
+
+/* Bildirim badge'i (çan üzerindeki kırmızı nokta) */
+html.sahibinden-dark-mode .classified-card-redesign__notification-badge,
+html.sahibinden-dark-mode [class*="notification-badge"] {
+  background-color: #e53935 !important;
+  background: #e53935 !important;
+}
+
+/* Bildirimi olan çan butonu → mavi göster (badge kardeş elementi varsa) */
+html.sahibinden-dark-mode button:has(.classified-card-redesign__notification-badge),
+html.sahibinden-dark-mode button:has([class*="notification-badge"]) {
+  color: #4da6ff !important;
+}
+
+html.sahibinden-dark-mode button:has(.classified-card-redesign__notification-badge) svg,
+html.sahibinden-dark-mode button:has(.classified-card-redesign__notification-badge) i,
+html.sahibinden-dark-mode button:has(.classified-card-redesign__notification-badge) path,
+html.sahibinden-dark-mode button:has([class*="notification-badge"]) svg,
+html.sahibinden-dark-mode button:has([class*="notification-badge"]) i,
+html.sahibinden-dark-mode button:has([class*="notification-badge"]) path {
+  color: #4da6ff !important;
+  fill: #4da6ff !important;
+}
+
+/* ── 9. SAYFALAMA ───────────────────────────────────────────────────────── */
+html.sahibinden-dark-mode .pagination a,
+html.sahibinden-dark-mode .pageNav a {
+  background-color: #1a1e2a !important;
+  color: #4da6ff !important;
+  border: 1px solid rgba(255,255,255,0.07) !important;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+html.sahibinden-dark-mode .pagination .current,
+html.sahibinden-dark-mode .pageNav .selected {
+  background-color: #4da6ff !important;
+  color: #ffffff !important;
+  border: 1px solid #4da6ff !important;
+}
+
+/* ── 10. İLAN DETAY SAYFASI ─────────────────────────────────────────────── */
+html.sahibinden-dark-mode .classifiedDetail,
+html.sahibinden-dark-mode #classifiedDetail {
+  background-color: #0d0e12 !important;
+}
+
+html.sahibinden-dark-mode .classifiedDetailTitle h1 {
+  color: #ffffff !important;
+}
+
+html.sahibinden-dark-mode .classified-media,
+html.sahibinden-dark-mode .classified-images,
+html.sahibinden-dark-mode .classifiedDetailLoopingImgs {
+  background-color: #13151c !important;
+  border: 1px solid rgba(255,255,255,0.07) !important;
+  border-radius: 8px;
+}
+
+html.sahibinden-dark-mode .classified-media:hover,
+html.sahibinden-dark-mode .classified-media:active,
+html.sahibinden-dark-mode .classified-images:hover,
+html.sahibinden-dark-mode .classified-images:active,
+html.sahibinden-dark-mode .classifiedDetailLoopingImgs:hover,
+html.sahibinden-dark-mode .classifiedDetailLoopingImgs:active {
+  background-color: #13151c !important;
+}
+
+html.sahibinden-dark-mode .thumblist,
+html.sahibinden-dark-mode .classified-images-thumbs {
+  background-color: #13151c !important;
+}
+
+html.sahibinden-dark-mode .thumblist li,
+html.sahibinden-dark-mode .thumblist a {
+  border: 2px solid rgba(255,255,255,0.07) !important;
+  background-color: #13151c !important;
+}
+
+html.sahibinden-dark-mode .thumblist li.selected,
+html.sahibinden-dark-mode .thumblist li.active {
+  border-color: #4da6ff !important;
+}
+
+html.sahibinden-dark-mode .gallery-footer,
+html.sahibinden-dark-mode .photo-nav,
+html.sahibinden-dark-mode .media-actions,
+html.sahibinden-dark-mode [class*="gallery-footer"],
+html.sahibinden-dark-mode [class*="mediaFooter"] {
+  background-color: #13151c !important;
+  border-top: 1px solid rgba(255,255,255,0.07) !important;
+  color: #d1d1d6 !important;
+}
+
+html.sahibinden-dark-mode .gallery-footer a,
+html.sahibinden-dark-mode .photo-nav a {
+  color: #4da6ff !important;
+}
+
+html.sahibinden-dark-mode .classifiedInfo,
+html.sahibinden-dark-mode .classified-info-container {
+  background-color: #13151c !important;
+  border: 1px solid rgba(255,255,255,0.07) !important;
+  border-radius: 8px;
+}
+
+html.sahibinden-dark-mode .classifiedInfoValue {
+  color: #4da6ff !important;
+  font-size: 22px !important;
+  font-weight: bold !important;
+}
+
+html.sahibinden-dark-mode .classifiedInfoList li {
+  border-bottom: 1px solid rgba(255,255,255,0.07) !important;
+  background-color: transparent !important;
+}
+
+html.sahibinden-dark-mode .classifiedInfoList li strong {
+  color: #8b8fa8 !important;
+}
+
+html.sahibinden-dark-mode .classifiedInfoList li span {
+  color: #ffffff !important;
+}
+
+html.sahibinden-dark-mode .user-info-box,
+html.sahibinden-dark-mode .storeBox,
+html.sahibinden-dark-mode .classifiedUserBox,
+html.sahibinden-dark-mode .user-info-widget,
+html.sahibinden-dark-mode .seller-info,
+html.sahibinden-dark-mode [class*="userBox"],
+html.sahibinden-dark-mode [class*="sellerBox"] {
+  background-color: #13151c !important;
+  border: 1px solid rgba(255,255,255,0.07) !important;
+  border-radius: 8px;
+  color: #d1d1d6 !important;
+}
+
+html.sahibinden-dark-mode .classifiedUserBox *,
+html.sahibinden-dark-mode .user-info-widget *,
+html.sahibinden-dark-mode [class*="userBox"] *,
+html.sahibinden-dark-mode [class*="sellerBox"] * {
+  background-color: transparent !important;
+  color: #d1d1d6 !important;
+}
+
+html.sahibinden-dark-mode .classifiedUserBox h3,
+html.sahibinden-dark-mode .classifiedUserBox strong,
+html.sahibinden-dark-mode [class*="userName"],
+html.sahibinden-dark-mode [class*="sellerName"] {
+  color: #ffffff !important;
+}
+
+html.sahibinden-dark-mode .phone-box,
+html.sahibinden-dark-mode .pretty-phone-box,
+html.sahibinden-dark-mode ul#phoneInfoPart,
+html.sahibinden-dark-mode .userContactInfo,
+html.sahibinden-dark-mode #phoneInfoPart {
+  background-color: #1a1e2a !important;
+  border: 1px solid rgba(255,255,255,0.10) !important;
+  color: #ffffff !important;
+}
+
+html.sahibinden-dark-mode ul#phoneInfoPart li,
+html.sahibinden-dark-mode .userContactInfo li {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border-color: rgba(255,255,255,0.10) !important;
+}
+
+html.sahibinden-dark-mode .ui-tabs-nav,
+html.sahibinden-dark-mode ul.classified-tabs {
+  background-color: transparent !important;
+  border-bottom: 2px solid rgba(255,255,255,0.07) !important;
+}
+
+html.sahibinden-dark-mode .ui-tabs-nav li {
+  background-color: #13151c !important;
+  border: 1px solid rgba(255,255,255,0.07) !important;
+  border-bottom: none !important;
+}
+
+html.sahibinden-dark-mode .classifiedDescription,
+html.sahibinden-dark-mode #classifiedDescription,
+html.sahibinden-dark-mode .ui-tabs-panel,
+html.sahibinden-dark-mode .tab-content,
+html.sahibinden-dark-mode .tab-pane,
+html.sahibinden-dark-mode .uiBox,
+html.sahibinden-dark-mode .uiBoxTitle,
+html.sahibinden-dark-mode .uiBoxContainer {
+  background-color: #13151c !important;
+  background: #13151c !important;
+  border-color: rgba(255,255,255,0.07) !important;
+  color: #d1d1d6 !important;
+}
+
+html.sahibinden-dark-mode .classified-section,
+html.sahibinden-dark-mode .classifiedSection,
+html.sahibinden-dark-mode .section-header,
+html.sahibinden-dark-mode .accordion-header,
+html.sahibinden-dark-mode .panel-heading,
+html.sahibinden-dark-mode [class*="section-header"],
+html.sahibinden-dark-mode [class*="sectionHeader"] {
+  background-color: #1a1e2a !important;
+  color: #d1d1d6 !important;
+  border-bottom: 1px solid rgba(255,255,255,0.09) !important;
+}
+
+html.sahibinden-dark-mode .section-header *,
+html.sahibinden-dark-mode .accordion-header *,
+html.sahibinden-dark-mode .panel-heading * {
+  background-color: transparent !important;
+  color: #d1d1d6 !important;
+}
+
+html.sahibinden-dark-mode dl {
+  background-color: #13151c !important;
+}
+
+html.sahibinden-dark-mode dt {
+  background-color: #1a1e2a !important;
+  color: #8b8fa8 !important;
+  padding: 6px 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.07) !important;
+}
+
+html.sahibinden-dark-mode dd {
+  background-color: #13151c !important;
+  color: #d1d1d6 !important;
+  padding: 6px 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.05) !important;
+  margin: 0;
+}
+
+html.sahibinden-dark-mode [class*="damage"],
+html.sahibinden-dark-mode [class*="hasar"] {
+  background-color: #161820 !important;
+  border: 1px solid rgba(255,255,255,0.07) !important;
+}
+
+html.sahibinden-dark-mode [class*="damage"] li,
+html.sahibinden-dark-mode [class*="damage"] td,
+html.sahibinden-dark-mode [class*="damage"] tr,
+html.sahibinden-dark-mode [class*="hasar"] li,
+html.sahibinden-dark-mode [class*="hasar"] td,
+html.sahibinden-dark-mode [class*="hasar"] tr {
+  border: none !important;
+  outline: none !important;
+}
+
+html.sahibinden-dark-mode .security-tips,
+html.sahibinden-dark-mode .safety-tips,
+html.sahibinden-dark-mode [class*="security-tip"],
+html.sahibinden-dark-mode [class*="safetyTip"],
+html.sahibinden-dark-mode [class*="guvenlik"],
+html.sahibinden-dark-mode [class*="Guvenlik"] {
+  background-color: #13151c !important;
+  border-color: rgba(255,255,255,0.07) !important;
+  border-style: solid !important;
+  border-width: 1px !important;
+  outline: none !important;
+  box-shadow: none !important;
+  color: #d1d1d6 !important;
+}
+
+html.sahibinden-dark-mode .security-tips *,
+html.sahibinden-dark-mode .safety-tips *,
+html.sahibinden-dark-mode [class*="security-tip"] * {
+  border-color: rgba(255,255,255,0.07) !important;
+}
+
+/* Selectric ve diğer özel dropdown/sıralama menüleri */
+html.sahibinden-dark-mode [class*="selectric"],
+html.sahibinden-dark-mode [class*="Selectric"],
+html.sahibinden-dark-mode .search-sorting-menu,
+html.sahibinden-dark-mode .sorting-menu,
+html.sahibinden-dark-mode .ui-select-menu,
+html.sahibinden-dark-mode .select-menu {
+  background-color: #1a1e2a !important;
+  color: #d1d1d6 !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.6) !important;
+}
+
+html.sahibinden-dark-mode [class*="selectric"] *,
+html.sahibinden-dark-mode .search-sorting-menu *,
+html.sahibinden-dark-mode .sorting-menu * {
+  background-color: transparent !important;
+  color: #d1d1d6 !important;
+}
+
+html.sahibinden-dark-mode [class*="selectric"] li:hover,
+html.sahibinden-dark-mode .search-sorting-menu li:hover {
+  background-color: rgba(255,255,255,0.05) !important;
+}
+
+/* ── 11. VİTRİN İLANLARI ───────────────────────────────────────────────── */
+html.sahibinden-dark-mode .showcase-container,
+html.sahibinden-dark-mode .ui-showcase,
+html.sahibinden-dark-mode .homepage-showcase,
+html.sahibinden-dark-mode div[class*="showcase"],
+html.sahibinden-dark-mode ul[class*="showcase"] {
+  background-color: #0d0e12 !important;
+}
+
+html.sahibinden-dark-mode .showcase-title,
+html.sahibinden-dark-mode .showcase-container h2,
+html.sahibinden-dark-mode .ui-showcase h2 {
+  color: #ffffff !important;
+}
+
+html.sahibinden-dark-mode .showcase-item,
+html.sahibinden-dark-mode div[class*="showcase"] li,
+html.sahibinden-dark-mode ul[class*="showcase"] li {
+  background-color: #13151c !important;
+  outline: 1px solid rgba(255,255,255,0.07);
+  border-radius: 6px;
+}
+
+html.sahibinden-dark-mode .showcase-item:hover,
+html.sahibinden-dark-mode div[class*="showcase"] li:hover {
+  background-color: #1a1e2a !important;
+}
+
+/* ── 12. MODAL ──────────────────────────────────────────────────────────── */
+html.sahibinden-dark-mode .ui-dialog,
+html.sahibinden-dark-mode .modal,
+html.sahibinden-dark-mode .popup,
+html.sahibinden-dark-mode #colorbox,
+html.sahibinden-dark-mode #cboxContent {
+  background-color: #1a1e2a !important;
+  border: 1px solid rgba(255,255,255,0.07) !important;
+  color: #d1d1d6 !important;
+}
+
+html.sahibinden-dark-mode .ui-dialog *,
+html.sahibinden-dark-mode .modal *,
+html.sahibinden-dark-mode .popup * {
+  color: #d1d1d6 !important;
+  background-color: transparent !important;
+}
+
+html.sahibinden-dark-mode .ui-dialog a:hover,
+html.sahibinden-dark-mode .modal a:hover,
+html.sahibinden-dark-mode .popup a:hover,
+html.sahibinden-dark-mode .ui-dialog li:hover,
+html.sahibinden-dark-mode .modal li:hover,
+html.sahibinden-dark-mode .popup li:hover {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* ── 13. ARAMA FİLTRE BUTONU ────────────────────────────────────────────── */
+html.sahibinden-dark-mode .searchFilter button,
+html.sahibinden-dark-mode .filterBox button,
+html.sahibinden-dark-mode button.searchBtn,
+html.sahibinden-dark-mode input.searchBtn {
+  background-color: #1e4a8a !important;
+  color: #ffffff !important;
+  border: 1px solid #2a5fa0 !important;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+html.sahibinden-dark-mode .searchFilter button:hover {
+  background-color: #2a5fa0 !important;
+}
+
+/* ── 14. DİĞER ──────────────────────────────────────────────────────────── */
+html.sahibinden-dark-mode a.mui-btn,
+html.sahibinden-dark-mode .mui-btn,
+html.sahibinden-dark-mode .popular-brand {
+  background-color: #1a1e2a !important;
+  border: 1px solid rgba(255,255,255,0.09) !important;
+  color: #d1d1d6 !important;
+}
+
+html.sahibinden-dark-mode a.mui-btn:hover,
+html.sahibinden-dark-mode .popular-brand:hover {
+  background-color: #252833 !important;
+  border-color: #4da6ff !important;
+}
+
+html.sahibinden-dark-mode .language-selection {
+  background-color: #1a1c23 !important;
+  border: 1px solid rgba(255,255,255,0.09) !important;
+  color: #d1d1d6 !important;
+}
+
+html.sahibinden-dark-mode .language-selection * {
+  background-color: transparent !important;
+  color: #d1d1d6 !important;
+}
+
+/* ── 15. TOOLTIP, POPUP ve FLYOUT ───────────────────────────────────────── */
+html.sahibinden-dark-mode [class*="tooltip"],
+html.sahibinden-dark-mode [class*="Tooltip"] {
+  background-color: #1a1e2a !important;
+  color: #e1e1e6 !important;
+  border: 1px solid rgba(255,255,255,0.10) !important;
+  border-radius: 6px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.6) !important;
+}
+
+html.sahibinden-dark-mode [class*="tooltip"] *,
+html.sahibinden-dark-mode [class*="Tooltip"] * {
+  background-color: transparent !important;
+  color: #e1e1e6 !important;
+}
+
+html.sahibinden-dark-mode [class*="flyout"],
+html.sahibinden-dark-mode [class*="Flyout"],
+html.sahibinden-dark-mode [class*="popover"],
+html.sahibinden-dark-mode [class*="Popover"] {
+  background-color: #1a1e2a !important;
+  color: #e1e1e6 !important;
+  border: 1px solid rgba(255,255,255,0.10) !important;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.6) !important;
+}
+
+html.sahibinden-dark-mode [class*="flyout"] *,
+html.sahibinden-dark-mode [class*="popover"] * {
+  background-color: transparent !important;
+  color: #e1e1e6 !important;
+}
+
+html.sahibinden-dark-mode [class*="price-history"],
+html.sahibinden-dark-mode [class*="priceHistory"],
+html.sahibinden-dark-mode [class*="PriceHistory"],
+html.sahibinden-dark-mode [class*="price_history"] {
+  background-color: #13151c !important;
+  color: #e1e1e6 !important;
+  border: 1px solid rgba(255,255,255,0.07) !important;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.7) !important;
+}
+
+html.sahibinden-dark-mode [class*="price-history"] *,
+html.sahibinden-dark-mode [class*="priceHistory"] * {
+  background-color: transparent !important;
+  color: #e1e1e6 !important;
+}
+
+html.sahibinden-dark-mode [class*="price-history"] [class*="box"],
+html.sahibinden-dark-mode [class*="price-history"] [class*="card"],
+html.sahibinden-dark-mode [class*="price-history"] [class*="inner"],
+html.sahibinden-dark-mode [class*="priceHistory"] [class*="box"],
+html.sahibinden-dark-mode [class*="priceHistory"] [class*="card"] {
+  background-color: #1a1e2a !important;
+  border: 1px solid rgba(255,255,255,0.10) !important;
+  border-radius: 8px;
+}
+
+html.sahibinden-dark-mode [class*="dropdown"] {
+  background-color: #1a1e2a !important;
+  border: 1px solid rgba(255,255,255,0.10) !important;
+  border-radius: 6px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.5) !important;
+}
+
+html.sahibinden-dark-mode [class*="dropdown"] * {
+  background-color: transparent !important;
+  color: #e1e1e6 !important;
+}
+
+html.sahibinden-dark-mode [class*="dropdown"] li:hover,
+html.sahibinden-dark-mode [class*="dropdown"] a:hover {
+  background-color: #252833 !important;
+}
+
+/* ── 16. BÜYÜK FOTOĞRAF ─────────────────────────────────────────────────── */
+html.sahibinden-dark-mode #colorbox,
+html.sahibinden-dark-mode #cboxOverlay,
+html.sahibinden-dark-mode #cboxWrapper,
+html.sahibinden-dark-mode #cboxContent,
+html.sahibinden-dark-mode #cboxLoadedContent,
+html.sahibinden-dark-mode [class*="lightbox"],
+html.sahibinden-dark-mode [class*="Lightbox"],
+html.sahibinden-dark-mode [class*="bigPhoto"],
+html.sahibinden-dark-mode [class*="photoViewer"],
+html.sahibinden-dark-mode [class*="photo-viewer"],
+html.sahibinden-dark-mode [class*="classified-big-image"],
+html.sahibinden-dark-mode [class*="classifiedBigImage"] {
+  background-color: #0d0e12 !important;
+  transition: none !important;
+}
+
+html.sahibinden-dark-mode #colorbox:hover,
+html.sahibinden-dark-mode #colorbox:active,
+html.sahibinden-dark-mode #cboxWrapper:hover,
+html.sahibinden-dark-mode #cboxWrapper:active {
+  background-color: #0d0e12 !important;
+}
+
+/* ── 17. MEGA PHOTO OVERLAY ─────────────────────────────────────────────── */
+html.sahibinden-dark-mode .megaPhotoLeft,
+html.sahibinden-dark-mode .megaPhotoRight,
+html.sahibinden-dark-mode .mega-photo-img,
+html.sahibinden-dark-mode .megaPhotoImgContainer,
+html.sahibinden-dark-mode [class*="megaPhoto"],
+html.sahibinden-dark-mode [class*="mega-photo"] {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+html.sahibinden-dark-mode .megaPhotoLeft:hover,
+html.sahibinden-dark-mode .megaPhotoLeft:active,
+html.sahibinden-dark-mode .megaPhotoRight:hover,
+html.sahibinden-dark-mode .megaPhotoRight:active,
+html.sahibinden-dark-mode .mega-photo-img:hover,
+html.sahibinden-dark-mode .mega-photo-img:active,
+html.sahibinden-dark-mode .megaPhotoImgContainer:hover,
+html.sahibinden-dark-mode .megaPhotoImgContainer:active,
+html.sahibinden-dark-mode [class*="megaPhoto"]:hover,
+html.sahibinden-dark-mode [class*="megaPhoto"]:active,
+html.sahibinden-dark-mode [class*="mega-photo"]:hover,
+html.sahibinden-dark-mode [class*="mega-photo"]:active {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* ── 18. ARAMA SONUCU ÖZETİ VE LİSTELEME YAZILARI ────────────────────────── */
+html.sahibinden-dark-mode .searchResultsSearchForm,
+html.sahibinden-dark-mode .searchResultSummaryRow,
+html.sahibinden-dark-mode .searchResultsTitle,
+html.sahibinden-dark-mode .search-result-info,
+html.sahibinden-dark-mode .result-text {
+  background-color: #161820 !important;
+  border: 1px solid rgba(255,255,255,0.07) !important;
+  border-radius: 6px !important;
+}
+html.sahibinden-dark-mode .searchResultsSearchForm *,
+html.sahibinden-dark-mode .searchResultSummaryRow *,
+html.sahibinden-dark-mode .searchResultsTitle *,
+html.sahibinden-dark-mode .search-result-info *,
+html.sahibinden-dark-mode .result-text * {
+  color: #d1d1d6 !important;
+  background-color: transparent !important;
+  text-shadow: none !important;
+}
+
+/* ── 19. AÇILIR MENÜLER VE SIRALAMA LİSTELERİ ────────────────────────────── */
+html.sahibinden-dark-mode .selectric-items,
+html.sahibinden-dark-mode .selectric-scroll,
+html.sahibinden-dark-mode .selectric-wrapper ul,
+html.sahibinden-dark-mode .faceted-select,
+html.sahibinden-dark-mode .search-sorting-menu,
+html.sahibinden-dark-mode .sorting-menu,
+html.sahibinden-dark-mode .sort-menu,
+html.sahibinden-dark-mode ul.dropdown-menu,
+html.sahibinden-dark-mode div[class*="dropdown"] ul,
+html.sahibinden-dark-mode ul[class*="select"] {
+  background-color: #1a1e2a !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.6) !important;
+}
+html.sahibinden-dark-mode .selectric-items *,
+html.sahibinden-dark-mode .selectric-scroll *,
+html.sahibinden-dark-mode .selectric-wrapper ul * {
+  color: #d1d1d6 !important;
+  background-color: transparent !important;
+}
+html.sahibinden-dark-mode .selectric-items li:hover,
+html.sahibinden-dark-mode .selectric-scroll li:hover {
+  background-color: rgba(255,255,255,0.05) !important;
+}
+
+/* ── 20. FAVORİ / KAYDETME POPUP'LARI VE DROPDOWN'LAR ───────────────────── */
+html.sahibinden-dark-mode .favorite-list-popup,
+html.sahibinden-dark-mode .wishlist-popup,
+html.sahibinden-dark-mode .my-favorites-flyout,
+html.sahibinden-dark-mode .save-search-popup,
+html.sahibinden-dark-mode .ui-dialog,
+html.sahibinden-dark-mode .modal,
+html.sahibinden-dark-mode .popup-container,
+html.sahibinden-dark-mode .flyout,
+html.sahibinden-dark-mode div[role="dialog"],
+html.sahibinden-dark-mode .user-menu-container,
+html.sahibinden-dark-mode .header-dropdown,
+html.sahibinden-dark-mode .notification-dropdown,
+html.sahibinden-dark-mode .messages-dropdown,
+html.sahibinden-dark-mode .dropdown-container,
+html.sahibinden-dark-mode #colorbox,
+html.sahibinden-dark-mode #cboxContent {
+  background-color: #1a1e2a !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.8) !important;
+}
+html.sahibinden-dark-mode .favorite-list-popup *,
+html.sahibinden-dark-mode .wishlist-popup *,
+html.sahibinden-dark-mode .my-favorites-flyout *,
+html.sahibinden-dark-mode .save-search-popup *,
+html.sahibinden-dark-mode .ui-dialog *,
+html.sahibinden-dark-mode .modal *,
+html.sahibinden-dark-mode .popup-container *,
+html.sahibinden-dark-mode .flyout *,
+html.sahibinden-dark-mode div[role="dialog"] *,
+html.sahibinden-dark-mode .user-menu-container *,
+html.sahibinden-dark-mode .header-dropdown *,
+html.sahibinden-dark-mode .notification-dropdown *,
+html.sahibinden-dark-mode .messages-dropdown *,
+html.sahibinden-dark-mode .dropdown-container *,
+html.sahibinden-dark-mode #colorbox *,
+html.sahibinden-dark-mode #cboxContent * {
+  color: #d1d1d6 !important;
+}
+
+#ag-forced-white-container,
+#ag-forced-white-container * {
+  color: #ffffff !important;
+  text-shadow: none !important;
+  opacity: 1 !important;
+}
+
+/* SS3 Özel: Mesajlar menüsündeki tab'lar (Soru-Cevap vb.) */
+html.sahibinden-dark-mode [class*="message"] [class*="tab"] a,
+html.sahibinden-dark-mode .header-dropdown [class*="tab"] a,
+html.sahibinden-dark-mode .header-dropdown a.tab,
+html.sahibinden-dark-mode .flyout [class*="tab"] a {
+  color: #ffffff !important; /* Pasif sekme (Soru-Cevap) rengi beyaz yapıldı */
+}
+html.sahibinden-dark-mode [class*="message"] [class*="tab"] a.active,
+html.sahibinden-dark-mode .header-dropdown [class*="tab"] a.active,
+html.sahibinden-dark-mode .header-dropdown a.tab.active,
+html.sahibinden-dark-mode .flyout [class*="tab"] a.active,
+html.sahibinden-dark-mode .header-dropdown a.selected {
+  color: #4da6ff !important; /* Aktif sekme (Mesajlar) rengi */
+}
+
+html.sahibinden-dark-mode .favorite-list-popup label:hover,
+html.sahibinden-dark-mode .my-favorites-flyout li:hover,
+html.sahibinden-dark-mode .ui-dialog li:hover,
+html.sahibinden-dark-mode .header-dropdown li:hover,
+html.sahibinden-dark-mode .messages-dropdown li:hover {
+  background-color: rgba(255,255,255,0.05) !important;
+}
+
+/* JavaScript tarayıcısı tarafından bulunan inatçı siyah metinler için son çare */
+html.sahibinden-dark-mode .antigravity-forced-white,
+html.sahibinden-dark-mode .antigravity-forced-white * {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+/* ── 21. BANA ÖZEL VE LİSTELEME EKSİKLERİ ───────────────────────────────── */
+/* Sol Menü: Sahibinden "Bana Özel" sol menüsündeki linkler ve metinler */
+html.sahibinden-dark-mode .left-menu-container a,
+html.sahibinden-dark-mode .left-menu-container span,
+html.sahibinden-dark-mode .left-menu-container li,
+html.sahibinden-dark-mode .my-account-left-nav a,
+html.sahibinden-dark-mode .my-account-left-nav span,
+html.sahibinden-dark-mode .my-account-menu a,
+html.sahibinden-dark-mode .my-account-menu span,
+html.sahibinden-dark-mode .user-menu a,
+html.sahibinden-dark-mode .user-menu span,
+html.sahibinden-dark-mode ul[class*="myAccount"] a,
+html.sahibinden-dark-mode ul[class*="myAccount"] span,
+html.sahibinden-dark-mode ul[class*="accountMenu"] a,
+html.sahibinden-dark-mode ul[class*="accountMenu"] span,
+html.sahibinden-dark-mode [class*="bana-ozel"] a,
+html.sahibinden-dark-mode [class*="bana-ozel"] span {
+  color: #d1d1d6 !important;
+}
+
+/* YENİ NESİL BİLEŞENLER (SHADOW DOM & CSS VARIABLES ROOT CAUSE) */
+html.sahibinden-dark-mode,
+html.sahibinden-dark-mode body {
+  --efes-icon-tile-label-color: #d1d1d6 !important;
+  --sui-semantic-component-tab-line-tab-unselected: #d1d1d6 !important;
+  --sui-semantic-component-tab-line-tab-selected: #4da6ff !important;
+  --sui-semantic-color-tab-link-tab-unselected: #d1d1d6 !important;
+}
+
+html.sahibinden-dark-mode .efes-icon-tile__label,
+html.sahibinden-dark-mode .sui-tab-component__label,
+html.sahibinden-dark-mode .sui-tab-component__count {
+  color: #d1d1d6 !important;
+}
+
+html.sahibinden-dark-mode .sui-tab-component__link[aria-selected="true"] .sui-tab-component__label,
+html.sahibinden-dark-mode .sui-tab-component__link[aria-selected="true"] .sui-tab-component__count {
+  color: #4da6ff !important;
+}
+
+/* ── 22. MESAJLAR SAYFASI (YENİ NESİL BİLEŞENLER) ───────────────────────── */
+
+/* Sağ taraf: Mesajlaşma alanı arka planındaki desenin kaldırılıp siyah yapılması */
+html.sahibinden-dark-mode .message-conversation,
+html.sahibinden-dark-mode .messaging-rules-container,
+html.sahibinden-dark-mode .messages-container,
+html.sahibinden-dark-mode .header-classified-preview,
+html.sahibinden-dark-mode .header-top,
+html.sahibinden-dark-mode efes-message-header,
+html.sahibinden-dark-mode .detail-input-shell,
+html.sahibinden-dark-mode efes-message-input {
+  background-image: none !important;
+  background-color: #161820 !important;
+}
+
+/* Sol taraf: Mesaj listesi öğeleri */
+html.sahibinden-dark-mode efes-message-card-by-person,
+html.sahibinden-dark-mode .message-card-by-person {
+  background-color: #161820 !important;
+  transition: background-color 0.2s ease;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+html.sahibinden-dark-mode efes-message-card-by-person > div {
+  background-color: transparent !important;
+}
+
+/* Üzerine gelindiğinde (Hover) lacivert */
+html.sahibinden-dark-mode efes-message-card-by-person:hover,
+html.sahibinden-dark-mode .message-card-by-person:hover {
+  background-color: #252833 !important;
+}
+
+/* Seçili (Aktif) olan mesaj lacivert */
+html.sahibinden-dark-mode efes-message-card-by-person.active,
+html.sahibinden-dark-mode efes-message-card-by-person.selected,
+html.sahibinden-dark-mode .message-card-by-person.active,
+html.sahibinden-dark-mode .message-card-by-person.selected {
+  background-color: #252833 !important;
+}
+
+/* ── 23. ARAMA SONUÇLARI LİSTESİ (HOVER EFEKTLERİ) ──────────────────────── */
+
+html.sahibinden-dark-mode .searchResultsItem:hover,
+html.sahibinden-dark-mode tr.searchResultsItem:hover,
+html.sahibinden-dark-mode .searchResultsItem:hover td,
+html.sahibinden-dark-mode tr.searchResultsItem:hover td {
+  background-color: #252833 !important;
+}
+
+/* Hover durumunda başlık renginin bozulmasını (beyaz olmasını) önleme */
+html.sahibinden-dark-mode .searchResultsItem:hover a.classifiedTitle,
+html.sahibinden-dark-mode tr.searchResultsItem:hover a.classifiedTitle {
+  color: #4da6ff !important;
+}
+
+html.sahibinden-dark-mode ul[class*="myAccount"] li.active > a,
+html.sahibinden-dark-mode ul[class*="accountMenu"] li.active > a,
+html.sahibinden-dark-mode .my-account-left-nav li.active > a,
+html.sahibinden-dark-mode .left-menu-container li.active > a,
+html.sahibinden-dark-mode .user-menu li.active > a {
+  background-color: #252833 !important;
+  color: #4da6ff !important;
+  border-left: 4px solid #4da6ff !important;
+  font-weight: bold;
+}
+
+/* Yeni Nesil "Bana Özel" Sol Menü (Angular / efes-icon-tile) */
+html.sahibinden-dark-mode .efes-icon-tile__container.selected,
+html.sahibinden-dark-mode .efes-icon-tile__container.active,
+html.sahibinden-dark-mode efes-icon-tile.selected .efes-icon-tile__container,
+html.sahibinden-dark-mode efes-icon-tile.active .efes-icon-tile__container,
+html.sahibinden-dark-mode .efes-icon-tile__container:active,
+html.sahibinden-dark-mode .efes-icon-tile__container:focus,
+html.sahibinden-dark-mode .efes-icon-tile__container:focus-within {
+  background-color: #252833 !important;
+}
+
+html.sahibinden-dark-mode .efes-icon-tile__container:hover {
+  background-color: #252833 !important;
+}
+
+/* ── 24. HARİTA (GOOGLE MAPS) GÖRÜNÜMÜ ──────────────────────────────────── */
+
+/* Haritanın JS tarafından bozulmasını engelledikten sonra, karanlık görünmesi için invert efekti */
+html.sahibinden-dark-mode .mapDetailsContainer,
+html.sahibinden-dark-mode #classified-location,
+html.sahibinden-dark-mode [class*="gm-style"] {
+  background-color: #1a1e2a !important;
+}
+
+html.sahibinden-dark-mode .mapDetailsContainer > div,
+html.sahibinden-dark-mode #classified-location > div {
+  filter: invert(1) hue-rotate(180deg) brightness(95%) contrast(90%) !important;
+}
+
+/* Sekmeler ("Yayında olanlar", "Yayında olmayanlar" vb.) */
+html.sahibinden-dark-mode .tab-nav-container a,
+html.sahibinden-dark-mode .tab-nav-container span,
+html.sahibinden-dark-mode ul[class*="tab"] a,
+html.sahibinden-dark-mode ul[class*="tab"] span,
+html.sahibinden-dark-mode [class*="nav-tab"] a,
+html.sahibinden-dark-mode [class*="nav-tab"] span {
+  color: #8b8fa8 !important;
+}
+
+html.sahibinden-dark-mode ul[class*="tab"] li.active a,
+html.sahibinden-dark-mode ul[class*="tab"] a.active,
+html.sahibinden-dark-mode ul[class*="tab"] li.selected a,
+html.sahibinden-dark-mode [class*="nav-tab"] li.active a {
+  color: #4da6ff !important;
+}
+
+/* İlan detaylarındaki liste/tablo alt başlıkları ("Küçük Fotoğraf", "Bitiş Tarihi" vb.) */
+html.sahibinden-dark-mode .my-classifieds-table td,
+html.sahibinden-dark-mode .my-classifieds-table th,
+html.sahibinden-dark-mode .my-account-table td,
+html.sahibinden-dark-mode .my-account-table th,
+html.sahibinden-dark-mode table[class*="myAccount"] td,
+html.sahibinden-dark-mode table[class*="myAccount"] th,
+html.sahibinden-dark-mode table[class*="myClassified"] td,
+html.sahibinden-dark-mode table[class*="myClassified"] th,
+html.sahibinden-dark-mode .classified-list td,
+html.sahibinden-dark-mode .classified-list th,
+html.sahibinden-dark-mode .classified-list span,
+html.sahibinden-dark-mode [class*="my-account"] table td,
+html.sahibinden-dark-mode [class*="my-account"] table th,
+html.sahibinden-dark-mode [class*="my-account"] table span,
+html.sahibinden-dark-mode [class*="list-footer"] span,
+html.sahibinden-dark-mode [class*="item-footer"] span {
+  color: #d1d1d6 !important;
+}
+
+/* ── 25. GRAFİKLER (HIGHCHARTS VB.) ─────────────────────────────────────── */
+html.sahibinden-dark-mode .highcharts-background,
+html.sahibinden-dark-mode rect.highcharts-background {
+  fill: transparent !important;
+}
+
+html.sahibinden-dark-mode .highcharts-root text,
+html.sahibinden-dark-mode text.highcharts-title,
+html.sahibinden-dark-mode text.highcharts-subtitle,
+html.sahibinden-dark-mode text.highcharts-axis-title,
+html.sahibinden-dark-mode .highcharts-axis-labels text,
+html.sahibinden-dark-mode .highcharts-legend-item text,
+html.sahibinden-dark-mode .highcharts-data-label text {
+  fill: #d1d1d6 !important;
+  color: #d1d1d6 !important;
+}
+
+html.sahibinden-dark-mode .highcharts-grid-line,
+html.sahibinden-dark-mode .highcharts-axis-line,
+html.sahibinden-dark-mode .highcharts-tick,
+html.sahibinden-dark-mode .highcharts-plot-border {
+  stroke: rgba(255, 255, 255, 0.1) !important;
+}
+
+html.sahibinden-dark-mode .highcharts-tooltip-box {
+  fill: #1a1e2a !important;
+  stroke: rgba(255, 255, 255, 0.1) !important;
+  fill-opacity: 0.9 !important;
+}
+
+html.sahibinden-dark-mode .highcharts-tooltip text {
+  fill: #ffffff !important;
+}
+
+html.sahibinden-dark-mode .highcharts-halo {
+  fill: rgba(77, 166, 255, 0.25) !important;
+}

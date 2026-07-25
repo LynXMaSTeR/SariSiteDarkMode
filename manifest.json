@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Sarı Site Dark Mode",
+  "version": "1.0",
+  "description": "Sarı Site için özel karanlık tema eklentisi.",
+  "author": "LynXMaSTeR",
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "*://*.sahibinden.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Sarı Site Dark Mode",
+    "default_icon": "logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.sahibinden.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles/sahibinden.css"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ]
+}
