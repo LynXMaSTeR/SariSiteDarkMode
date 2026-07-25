@@ -23,11 +23,7 @@
 
 ## 📦 Kurulum
 
-1. Bu projeyi bilgisayarınıza indirin:
-   ```bash
-   git clone https://github.com/LynXMaSTeR/SariSiteDarkMode.git
-   ```
-   veya **Code → Download ZIP** ile indirip çıkartın.
+1. [**⬇️ Projeyi ZIP olarak indirin**](https://github.com/LynXMaSTeR/SariSiteDarkMode/archive/refs/heads/main.zip) ve çıkartın.
 
 2. Chrome'da `chrome://extensions` adresine gidin.
 

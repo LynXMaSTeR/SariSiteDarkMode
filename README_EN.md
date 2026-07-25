@@ -23,11 +23,7 @@ A custom dark theme Chrome extension built for **Sahibinden.com** — Turkey's l
 
 ## 📦 Installation
 
-1. Clone or download this repository:
-   ```bash
-   git clone https://github.com/LynXMaSTeR/SariSiteDarkMode.git
-   ```
-   or click **Code → Download ZIP** and extract.
+1. [**⬇️ Download the project as ZIP**](https://github.com/LynXMaSTeR/SariSiteDarkMode/archive/refs/heads/main.zip) and extract it.
 
 2. Open `chrome://extensions` in Chrome.
 
