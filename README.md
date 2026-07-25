@@ -2,7 +2,7 @@
   <img src="logo.png" alt="Sarı Site Dark Mode" width="80">
 </p>
 
-# 🌙 Sarı Site Dark Mode
+<h1 align="center">🌙 Sarı Site Dark Mode</h1>
 
 **Sahibinden.com** için özel olarak geliştirilmiş karanlık tema Chrome eklentisi. Göz yorgunluğunu azaltır, gece kullanımını konforlu hale getirir.
 
