@@ -4,6 +4,10 @@
 
 <h1 align="center">🌙 Sarı Site Dark Mode</h1>
 
+<p align="center">
+  Türkçe · <a href="README_EN.md">English</a>
+</p>
+
 **Sahibinden.com** için özel olarak geliştirilmiş karanlık tema Chrome eklentisi. Göz yorgunluğunu azaltır, gece kullanımını konforlu hale getirir.
 
 ## ✨ Özellikler
